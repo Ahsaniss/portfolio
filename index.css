@@ -1,0 +1,150 @@
+
+
+body {
+  background-color: rgb(11, 25, 48);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+ 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  
+}
+
+
+
+
+
+li a {
+  display: block;
+  color:rgb(100, 255,218);
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(11, 25, 48);
+  color:rgb(100, 255,218);
+}
+#nav{
+  margin-top: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#ee {
+  color: rgb(204, 214, 246);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#ee:hover {
+  color: rgb(100, 255, 218);
+}
+#logo img {
+  width: 130px; /* Adjust the width of the logo as needed */
+  /* Maintain aspect ratio */
+  float: left;
+  height: 140px;
+  margin-top: 0;
+}
+
+.text{
+color:rgb(100, 255,218);
+margin-left: 45px;
+font-size:25px ;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.text1{
+color:rgb(179, 192, 234);
+margin-left: 15px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+font-size:20px ;
+
+}
+.button1 {
+background-color: white; 
+color: black; 
+border: 2px solid #04AA6D;
+}
+.button {
+/* Green */
+
+float: right;
+margin-top: 17px;
+transition-duration: 0.4s;
+cursor: pointer;
+}
+.button:hover {
+  background: linear-gradient(to top, rgba(0, 255, 183, 0.137), rgba(0, 255, 183, 0.11), rgba(0, 255, 183, 0.093));
+  text-shadow: 0 0 10px  rgb(0, 255, 183), 0 0 20px  rgba(0, 255, 183, 0.963),  rgba(0, 255, 183, 0.974);
+  border: 2px solid  rgb(0, 255, 183);
+}
+.button2:hover {
+  background: linear-gradient(to top, rgba(0, 255, 183, 0.137), rgba(0, 255, 183, 0.11), rgba(0, 255, 183, 0.093));
+  text-shadow: 0 0 10px  rgb(0, 255, 183), 0 0 20px  rgba(0, 255, 183, 0.963),  rgba(0, 255, 183, 0.974);
+  border: 2px solid  rgb(0, 255, 183);
+}
+.container {
+display: flex;
+}
+
+.text-container {
+flex: 1;
+padding: 20px;
+text-align: left; /* Align text to the right */
+}
+.image-container {
+  position: relative;
+  flex: 1;
+  width: 50px;
+  height: 400px;
+  overflow: hidden;
+  
+ 
+}
+
+.gradient::after {
+  content: ""; /* Add content to ensure the pseudo-element is rendered */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 52%;
+  height: 100%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.431), rgba(0, 255, 183, 0.427));
+  z-index: 1; /* Ensure the gradient is in front of the image */
+}
+
+.image-container img {
+  width: 52%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border:  1px  ridge rgb(179, 192, 234) ;
+  
+
+
+  position: relative; /* Ensure the image is positioned relative to its container */
+  z-index: 0; /* Ensure the image is behind the gradient */
+}
+
+
+.text {
+font-size: 20px; /* Increase the font size of the text */
+color:rgb(179, 192, 234);
+}
+#para1{
+  color: aquamarine;
+}

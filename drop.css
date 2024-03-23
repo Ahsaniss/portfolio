@@ -1,0 +1,279 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    margin: 0;
+    padding: 0;
+    
+}
+
+.content {
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.bottom-menu {
+    background-color:rgb(11, 25, 48);
+    color:rgb(204, 214, 246);
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    left:40px;
+    width: 15%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.menu-item {
+    text-decoration: none;
+    color:rgb(204, 214, 246);
+    display: block; /* Make menu items display vertically */
+    margin: 10px 0; /* Add some vertical spacing between menu items */
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    padding-top: 0%;
+}
+
+.menu-item:hover {
+    color:rgb(100, 255,218);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    
+}
+#ddd1:hover{
+    text-decoration: underline;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+   
+}
+.container5 {
+    display: flex;
+    }
+    
+    .container3 {
+    flex: 1;
+    padding: 20px;
+    margin-left: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+     /* Align text to the right */
+     }
+    .image-container4 {
+      position: relative;
+      flex: 1;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+      width: 50px;
+      height: 400px;
+      overflow: hidden;
+      float: left;
+     
+    }
+    #hh1:hover{
+text-decoration: underline;
+color:rgb(100, 255,218);
+font-size: large;
+transition: text-decoration 0.4s ease;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    #hh2{
+        text-decoration:none;
+        color:rgb(100, 255,218);
+        font-size: large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: text-decoration 0.4s ease;
+            }
+            #hh3{
+                text-decoration: none;
+                color:rgb(204, 214, 246);
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+                font-size: large;
+                transition: text-decoration 0.4s ease;
+                    }
+                    #hh2:hover{
+                        text-decoration:none;
+                        color:rgb(204, 214, 246);
+                        font-size:large;
+                        transition: text-decoration 0.4s ease;
+                            }
+                            #hh3:hover{
+                                text-decoration: underline;
+                                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+                                color:rgb(100, 255,218);
+                                font-size: 20px;
+                                transition: text-decoration 0.4s ease;
+                                    }
+                                    
+.containerR {
+    display: flex;
+
+    }
+    .image-containerR {
+        position: relative;
+        flex: 1;
+        width: 50px;
+        height: 400px;
+        overflow: hidden;
+       
+      }
+    
+    .text-containerR {
+    flex: 1;
+    padding: 20px;
+    text-align: left; /* Align text to the right */
+    margin-left: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+   
+    }
+   
+    
+    .gradientR::before {
+      content: ""; 
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 70%;
+      height: 70%;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.431), rgba(0, 255, 183, 0.427));
+      z-index: 1; 
+      margin-top: 48PX;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    
+    .image-containerR img {
+      width: 70%;
+      height: 70%;
+      object-fit: cover;
+      display: block;
+      margin-top: 48PX;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    
+      position: relative; /* Ensure the image is positioned relative to its container */
+      z-index: 0; /* Ensure the image is behind the gradient */
+    }
+    
+    
+    .textR {
+    font-size: 20px; /* Increase the font size of the text */
+    color:rgb(179, 192, 234);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    #para1R{
+      color: aquamarine;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    #RRRR4{
+        font-size: 14px;
+        color: aquamarine;
+        padding-left: 2px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    #RRRR10{
+      
+        color: rgb(179, 192, 234);
+        padding-left: 2px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    #RRRR7{
+        font-size: 23px;
+        color: rgb(179, 192, 234);
+        padding-left: 2px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    #RRRR9{
+        font-size: 14px;
+        color: rgb(179, 192, 234);
+        padding-left: px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        margin-left: 18px;
+        background-color:rgb(23 42 69);
+        border:2px ridge transparent;
+        border-radius: 5px;
+        
+    
+    }
+    .fa-github:hover {
+        color: aquamarine;
+    }
+    #www3:hover{
+        color: aquamarine ;
+    }
+    .containerW {
+        display: flex;
+        flex-direction: row-reverse; /* Reverse the flex direction to switch positions */
+    }
+    
+    .image-containerW {
+        flex: 1;
+        width: 50px;
+        height: 400px;
+        overflow: hidden;
+        position: relative; /* Ensure positioning context for the gradient */
+    }
+    
+    .text-containerW {
+        flex: 1;
+        padding: 20px;
+        text-align: left; /* Align text to the left */
+        margin-left: 22px; /* Adjust margin for spacing */
+    }
+    
+    .image-containerW::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 70%;
+        height: 60%;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.431), rgba(0, 255, 183, 0.427));
+        z-index: 1;
+        margin-left: 180px;
+        margin-top: 60px;
+    }
+    
+    .image-containerW img {
+        width: 70%;
+        height: 60%;
+        object-fit: cover;
+        display: block;
+        z-index: 0; /* Ensure the image is behind the gradient */
+        margin-left: 180px;
+
+        margin-top: 60px;
+    }
+    
+    .textW {
+        font-size: 20px;
+        color: rgb(179, 192, 234);
+    }
+    
+    #para1W {
+        color: aquamarine;
+    }
+    
+    .fa-github:hover {
+        color: aquamarine;
+    }
+    
+    #www3:hover {
+        color: aquamarine;
+    }
+    
